@@ -4,7 +4,6 @@ pipeline {
         stage('---date and time---') { 
             steps {
                 sh "date"
-                sh "time"
             }
         }
         stage('compile') { 
